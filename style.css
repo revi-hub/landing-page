@@ -1,0 +1,14 @@
+/* Reset */
+*{
+    box-sizing: border-box;
+}
+
+/* Variables */
+:root{
+    --clr-dark-blue: #1F2937;
+    --clr-light-blue: #3882F6;
+    --clr-shade-gray: #E5E7EB;  
+}
+
+/* Definitions */
+
