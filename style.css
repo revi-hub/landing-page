@@ -103,6 +103,7 @@ button{
 }
 
 .information-h2{
+    color: var(--clr-hero-footer-bg);
     text-align: center;
     line-height: 70px;
 }
@@ -134,4 +135,25 @@ button{
 
 .information-text__secondary{
     text-align: center;
+    color: var(--clr-hero-footer-bg);
+    font-weight: 300;
+}
+
+/* Quote section styles go here*/
+.quote-section{
+    background-color: var(--clr-shade-gray);
+    padding: 100px 33vw;
+}
+
+blockquote{
+    color: var(--clr-hero-footer-bg);
+    font-size: 36px;
+    font-weight: 300;
+    font-style: italic;
+    text-align: justify;
+}
+
+.cite{
+    display: block;
+    text-align: right;
 }
