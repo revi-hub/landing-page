@@ -97,13 +97,41 @@ button{
 /* Information section style definitions go here*/
 .information-section{
     width: 100vw;
-    padding-top: 40px;
     padding-bottom: 50px;
     display: flex;
     justify-content: center;
 }
 
+.information-h2{
+    text-align: center;
+    line-height: 70px;
+}
+
 .information-section-wrapper{
+    width: 100vw;
+    padding: 0 31vw;
+}
+
+.img-gallery{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.information-card{
     display: flex;
     flex-flow: column;
+    margin: 0 auto;
+    flex-basis: 160px;
+}
+
+.information-card--img{
+    border-radius: 15px;
+    border:2px solid var(--clr-btn);
+    margin-bottom: 10px;
+    height: 160px;
+}
+
+.information-text__secondary{
+    text-align: center;
 }
