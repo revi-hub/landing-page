@@ -5,8 +5,9 @@
 
 /* Variables */
 :root{
-    --clr-dark-blue: #1F2937;
-    --clr-light-blue: #3882F6;
+    --clr-hero-footer-bg: #1F2937;
+    --clr-btn: #3882F6;
+    --clr-header-txt: #F9FAF8;
     --clr-shade-gray: #E5E7EB;  
 }
 
