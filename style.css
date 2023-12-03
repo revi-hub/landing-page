@@ -1,5 +1,7 @@
 /* Reset */
-*{
+*{  
+    margin: 0;
+    padding: 0;
     box-sizing: border-box;
 }
 
@@ -12,4 +14,36 @@
 }
 
 /* Definitions */
+
+.header-wrapper{
+    background-color: var(--clr-hero-footer-bg);
+    display: flex;
+    padding: 24px 16vw;
+}
+
+.header-h1, .text__secondary{
+    font-family: 'Roboto', sans-serif;
+}
+
+.header-h1{
+    color: var(--clr-header-txt);
+    font-size: 24px;
+    margin-right: auto;
+}
+
+.text__secondary{
+    color: var(--clr-shade-gray);
+    font-size: 18px;
+    font-weight: 300;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    min-width: 420px;
+}
+
+.header-link{
+    text-decoration: none;
+}
 
