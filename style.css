@@ -1,11 +1,11 @@
-/* Reset */
+/* || Reset */
 *{  
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-/* Variables */
+/* || Variables */
 :root{
     --clr-hero-footer-bg: #1F2937;
     --clr-btn: #3882F6;
@@ -13,8 +13,8 @@
     --clr-shade-gray: #E5E7EB;  
 }
 
-/* Definitions */
-
+/* || Definitions */
+/* Header style definitions go here*/
 .header-wrapper{
     background-color: var(--clr-hero-footer-bg);
     display: flex;
@@ -46,4 +46,6 @@ nav{
 .header-link{
     text-decoration: none;
 }
+
+/* Hero style definitions go here*/
 
