@@ -105,18 +105,18 @@ button{
 .information-h2{
     color: var(--clr-hero-footer-bg);
     text-align: center;
-    line-height: 70px;
 }
 
 .information-section-wrapper{
     width: 100vw;
-    padding: 0 31vw;
+    padding: 40px 31vw 100px;
 }
 
 .img-gallery{
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
+    margin-top: 40px;
 }
 
 .information-card{
