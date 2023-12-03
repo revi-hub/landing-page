@@ -44,3 +44,51 @@ nav{
 }
 
 /* Hero style definitions go here*/
+.hero{
+    background-color: var(--clr-hero-footer-bg);
+}
+
+.hero-wrapper{
+    display: flex;
+    flex-flow: column;
+    justify-items: center;
+    align-items: center;
+}
+
+.hero-horizontal-card{
+    display: flex;
+    padding: 120px 16vw;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.card-text{
+    flex-basis: 300px;
+    flex-grow: 1;
+}
+
+.card-image{
+    background-color: gray;
+    height: 180px;
+    flex-basis: 300px;
+    flex-grow: 1;
+}
+
+.hero-h1{
+    font-size: 48px;
+    color: var(--clr-header-txt);
+}
+
+button{
+    background-color: var(--clr-btn);
+    color: var(--clr-header-txt);
+    font-weight: bold;
+    padding: 10px 30px;
+    border-radius: 5px;
+    border: none;
+}
+
+.hero--btn{
+    margin-top: 14px;
+    margin-bottom: 20px;
+}
