@@ -1,8 +1,8 @@
 /* || Reset */
 *{  
+    box-sizing: border-box;
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
 }
 
 /* || Variables */
@@ -49,17 +49,17 @@ nav{
 }
 
 .hero-wrapper{
+    align-items: center;
     display: flex;
     flex-flow: column;
     justify-items: center;
-    align-items: center;
 }
 
 .hero-horizontal-card{
     display: flex;
-    padding: 120px 16vw;
     flex-wrap: wrap;
     justify-content: space-between;
+    padding: 120px 16vw;
 }
 
 .card-text{
@@ -70,23 +70,23 @@ nav{
 .card-image{
     background-image: url(images/0.jpeg);
     background-size: cover;
-    height: 180px;
     flex-basis: 300px;
     flex-grow: 1;
+    height: 180px;
 }
 
 .hero-h1{
-    font-size: 48px;
     color: var(--clr-header-txt);
+    font-size: 48px;
 }
 
 button{
     background-color: var(--clr-btn);
+    border-radius: 5px;
+    border: none;
     color: var(--clr-header-txt);
     font-weight: bold;
     padding: 10px 30px;
-    border-radius: 5px;
-    border: none;
 }
 
 .hero--btn{
@@ -96,10 +96,10 @@ button{
 
 /* Information section style definitions go here*/
 .information-section{
-    width: 100vw;
-    padding-bottom: 50px;
     display: flex;
     justify-content: center;
+    padding-bottom: 50px;
+    width: 100vw;
 }
 
 .information-h2{
@@ -108,35 +108,35 @@ button{
 }
 
 .information-section-wrapper{
-    width: 100vw;
     padding: 40px 31vw 100px;
+    width: 100vw;
 }
 
 .img-gallery{
     display: flex;
-    justify-content: space-between;
     flex-wrap: wrap;
+    justify-content: space-between;
     margin-top: 40px;
 }
 
 .information-card{
     display: flex;
+    flex-basis: 160px;
     flex-flow: column;
     margin: 0 auto;
-    flex-basis: 160px;
 }
 
 .information-card--img{
     border-radius: 15px;
     border:2px solid var(--clr-btn);
-    margin-bottom: 10px;
     height: 160px;
+    margin-bottom: 10px;
 }
 
 .information-text__secondary{
-    text-align: center;
     color: var(--clr-hero-footer-bg);
     font-weight: 300;
+    text-align: center;
 }
 
 /* Quote section styles go here*/
@@ -148,24 +148,24 @@ button{
 blockquote{
     color: var(--clr-hero-footer-bg);
     font-size: 36px;
-    font-weight: 300;
     font-style: italic;
+    font-weight: 300;
     text-align: justify;
 }
 
 .cite{
     display: block;
-    text-align: right;
     font-size: 20px;
+    text-align: right;
 }
 
 /* Cta section styles go here*/
 .cta{
     background-color: var(--clr-btn);
     border-radius: 5px;
-    padding: 40px 80px;
     display: flex;
     margin: 100px 16vw;
+    padding: 40px 80px;
 }
 
 .cta-inner-box-text{
@@ -173,8 +173,8 @@ blockquote{
 }
 
 .cta-h4{
-    font-size: 20px;
     color: var(--clr-header-txt);
+    font-size: 20px;
 }
 
 .cta--btn{
@@ -182,3 +182,12 @@ blockquote{
 }
 
 /* Footer style definitions go here*/
+footer{
+    background-color: var(--clr-hero-footer-bg);
+    padding: 40px;
+}
+
+.copyright{
+    display: block;
+    text-align: center;
+}
