@@ -21,10 +21,6 @@
     padding: 24px 16vw;
 }
 
-.header-h2, .text__secondary{
-    font-family: 'Roboto', sans-serif;
-}
-
 .header-h2{
     color: var(--clr-header-txt);
     font-size: 24px;
@@ -48,4 +44,3 @@ nav{
 }
 
 /* Hero style definitions go here*/
-
