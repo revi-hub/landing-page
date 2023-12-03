@@ -160,10 +160,6 @@ blockquote{
 }
 
 /* Cta section styles go here*/
-.cta-section{
-
-}
-
 .cta{
     background-color: var(--clr-btn);
     border-radius: 5px;
@@ -184,3 +180,5 @@ blockquote{
 .cta--btn{
     border: 2px solid var(--clr-header-txt);
 }
+
+/* Footer style definitions go here*/
