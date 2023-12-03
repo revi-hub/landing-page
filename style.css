@@ -158,3 +158,29 @@ blockquote{
     text-align: right;
     font-size: 20px;
 }
+
+/* Cta section styles go here*/
+.cta-section{
+
+}
+
+.cta{
+    background-color: var(--clr-btn);
+    border-radius: 5px;
+    padding: 40px 80px;
+    display: flex;
+    margin: 100px 16vw;
+}
+
+.cta-inner-box-text{
+    margin-right: auto;
+}
+
+.cta-h4{
+    font-size: 20px;
+    color: var(--clr-header-txt);
+}
+
+.cta--btn{
+    border: 2px solid var(--clr-header-txt);
+}
