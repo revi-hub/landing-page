@@ -139,7 +139,7 @@ button{
     text-align: center;
 }
 
-/* Quote section styles go here*/
+/* Quote section style definitions go here*/
 .quote-section{
     background-color: var(--clr-shade-gray);
     padding: 100px 33vw;
@@ -159,7 +159,7 @@ blockquote{
     text-align: right;
 }
 
-/* Cta section styles go here*/
+/* Cta section style definitions go here*/
 .cta{
     background-color: var(--clr-btn);
     border-radius: 5px;
@@ -181,7 +181,7 @@ blockquote{
     border: 2px solid var(--clr-header-txt);
 }
 
-/* Footer style definitions go here*/
+/* Footer style definition definitions go here*/
 footer{
     background-color: var(--clr-hero-footer-bg);
     padding: 40px;
